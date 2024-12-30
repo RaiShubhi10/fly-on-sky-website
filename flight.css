@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+#marquee{
+    background-color: rgb(215, 245, 190);
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo{
+    margin-left: 80px;
+}
+
+#span{
+    font-size:medium;
+    color: rgb(14, 210, 200);
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 0.5rem 1rem;
+}
+
+#navbar a{
+    color: beige;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+#navbar a:hover{
+    background-color: blue;
+}
+
+#logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family:Georgia, serif;
+    color: beige;
+}
+
+#navbar .menu{
+    display: flex;
+}
+  
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+  

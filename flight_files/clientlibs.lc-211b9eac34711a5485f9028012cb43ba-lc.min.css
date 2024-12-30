@@ -1,0 +1,55 @@
+.news-ticker.ai-fp-view-0 .announcement-container{display:block}
+.hideTikker .announcement-container{display:none}
+.announcement-container{display:none}
+.announcement-container{bottom:0;left:0;position:fixed;width:100%;z-index:1055}
+.news-ticker-wrapper{max-width:1232px;display:flex;align-items:center;gap:10px;margin:0 auto;height:100%;column-gap:16px;overflow:hidden}
+.news-ticker-container{background:#1c1213;opacity:.9;position:relative;z-index:999;height:60px}
+.news-ticker-card{color:#fff;font-size:14px;width:100%;position:relative}
+.news-ticker-card{margin:10px 0}
+.news-ticker-card:hover{text-decoration:underline;text-decoration-color:#eaeaea;cursor:pointer}
+.icon-text-container{color:#eee;font-family:"AirIndia Variable";font-weight:500;font-size:16px;display:flex;padding:0 4px 0 0;align-items:center}
+.icon-text-container img{height:24px;width:24px}
+.news-ticker-data-index{color:#fff;margin:auto 0}
+.news-ticker-data{width:75%;display:flex;flex-direction:column;justify-content:center;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis;cursor:pointer}
+@keyframes slideUp{0{transform:translateY(100%);opacity:1}
+25%{transform:translateY(0);opacity:1}
+50%{transform:translateY(0);opacity:1}
+65%{transform:translateY(0);opacity:1}
+100%{transform:translateY(-100%);opacity:0}
+}
+.news-data{display:none;transform:translateY(100%);animation:slideUp 5.5s cubic-bezier(0.25,0.1,0.25,1) forwards}
+.news-data.active{display:block}
+.alert-info-icon .img{width:24px;height:24px}
+.cancel img{width:24px;height:24px}
+.cancel{margin:auto 0;padding:0 10px}
+.cancel:hover{cursor:pointer}
+.news-ticker-link{text-decoration:none;width:10%;padding:0 10px;color:#fff;margin:auto 0;font-family:airindiaregular;font-weight:400;font-size:12px;line-height:17px}
+.news-ticker-link img{width:20px;height:19px;margin-left:0}
+.news-ticker-link:hover{color:#dedede;text-decoration:none}
+.message-type{margin-left:8px}
+@media(max-width:992px){.announcement-container{top:0;max-height:40px}
+.message-type{display:none}
+.icon-text-container{padding:0 4px}
+.news-ticker-link{width:20%;padding:0 5px;min-width:75px}
+.news-ticker-container{height:40px}
+.news-ticker-card{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.news-ticker-link{display:flex;justify-content:center}
+.news-ticker-link img{width:20px;height:18px;margin-left:0}
+}
+@media(max-width:992px){.news-ticker-data{width:65%}
+}
+@media(max-width:576px){.news-ticker-data{width:55%}
+}
+@media(max-width:450px){.news-ticker-data{width:40%}
+.news-ticker-link{width:25%}
+}
+@media(max-width:350px){.news-ticker-link{min-width:20px}
+}
+@media(min-width:1025px){.ai-fp-view-0.news-ticker .floating-chat-bot-outer-wrapper{bottom:40px}
+}
+@media screen and (max-width:767px){.icon-text-container img{height:16px;width:16px}
+.icon-text-container{padding-left:8px}
+.news-ticker-card{font-size:12px}
+.news-ticker-data-index{font-size:12px;color:#FFF}
+.cancel img{width:24px;height:24px}
+}

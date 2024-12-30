@@ -1,0 +1,16 @@
+.fdbck-acrd p{color:var(--text-color,#1f2b34);text-align:center;font-family:"AirIndia Variable";font-size:16px;font-style:normal;font-weight:600;line-height:125%;margin-top:18px;margin-bottom:0 !important}
+#popupDialog{display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);padding:20px;background-color:#fff;border:1px solid #ccc;box-shadow:0 4px 8px rgba(0,0,0,0.1);z-index:99999999}
+#feedackoverlay{display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.4);z-index:9999999}
+.fdbck-cntn{display:flex;gap:18px;padding-left:36.75px;padding-right:36.75px;padding-bottom:36.5px}
+.fdbck-acrd{display:flex;cursor:pointer;flex-direction:column;justify-content:center;align-items:center;color:black;height:163.5px;width:157.18px;padding:10px;background:#f7f8f8;box-sizing:border-box}
+a.fdbck-acrd{text-decoration:none}
+.fdbck-acrd:hover{box-shadow:0 4px 4px 0 #00000040}
+.fdbck-inner button{width:24px;height:24px;flex-shrink:0;border:0;background:transparent}
+.cls-div{justify-content:flex-end;display:flex;margin-bottom:18px}
+button.fdbck-btn{position:fixed;display:block;right:0;top:58vh;text-transform:capitalize;border-radius:0;padding-left:10px;padding-right:10px;border:unset;height:30px;cursor:pointer;background-color:#da1028;color:#fff;font-size:14px;transform:rotate(-90deg);transform-origin:100% 100%;transition:all ease-in-out .3s}
+button.fdbck-btn:hover{background-color:#bd1024;border-radius:4px 4px 0 0}
+button#QSIFeedbackButton-btn{display:none}
+@media(max-width:991px){.fdbck-cntn{flex-direction:column}
+button.fdbck-btn{display:none}
+}
+button.fdbck-btn{z-index:999999;font-family:"AirIndia Variable"}

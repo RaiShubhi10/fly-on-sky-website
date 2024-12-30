@@ -1,0 +1,14 @@
+.giftsPagePopup .popup-container{display:none;justify-content:center;align-items:center;position:fixed;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,0.5);z-index:99999999;box-shadow:0 4px 8px #00000029}
+.giftsPagePopup .popup-content{background-color:white}
+.giftsPagePopup .popup-title{padding:16px 16px 16px 16px;font-family:Nunito Sans;font-size:18px;font-weight:700;line-height:22.5px;text-align:left;display:flex;justify-content:space-between;align-items:baseline;box-shadow:0 4px 6px -1px #1E293B1A;color:#25272c}
+.giftsPagePopup .popup-title>img{cursor:pointer}
+.giftsPagePopup .popup-details{color:#383c42;padding:16px 16px 0 16px;font-family:Nunito Sans;font-size:14px;font-weight:400;line-height:19.6px;letter-spacing:.0025em;text-align:left;padding-bottom:16px;border-bottom:solid 1px #1E293B1A;margin-bottom:0 !important}
+.giftsPagePopup .popup-buttons{display:flex;gap:16px;justify-content:flex-end;padding:16px;font-family:var(--variable-font-family)}
+.giftsPagePopup .popup-buttons>a{text-decoration:none;color:transparent !important}
+.giftsPagePopup .popup-button-cancel{border:solid 1px #da0e29;background-color:#fff;color:#da0e29;height:48px;width:108px;align-items:center;padding:0 24px 0 24px;cursor:pointer;font-size:14px}
+.giftsPagePopup .popup-button-cancel:hover{color:#b61032;border:2px solid #b61032;border-color:#b61032}
+.giftsPagePopup .popup-button-cancel:active{background:#fecbd8;border-color:#790b27}
+.giftsPagePopup .popup-button-confirm{display:flex;color:#fff;background-color:#da0e29;height:48px;width:108px;align-items:center;padding:0 24px 0 24px;border:0;cursor:pointer;font-size:14px}
+.giftsPagePopup .popup-button-confirm:hover{background-color:#b61032}
+.giftsPagePopup .popup-button-confirm:active{background-color:#790b27;border:1px solid #790b27}
+.giftsPagePopup .gifts-buy-button{cursor:pointer}
